@@ -37,6 +37,10 @@ main {
     background-color:#282D35;    
     height: 100vh;
     color: white;
+    background-image: url("./assets/react-icon-large.png");
+    background-size: 160px;
+    background-repeat: no-repeat;
+    background-position: 100% 25%;
 }
 
 .main--header {
@@ -58,4 +62,9 @@ main {
     line-height: 19px;
     font-weight: 400;
     font-size: 16px;
+}
+
+.main--list_items > li::marker {
+    font-size: 1.4rem;
+    color: #61DAFB;
 }
