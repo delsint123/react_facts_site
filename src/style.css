@@ -32,3 +32,30 @@ body {
     font-size: 16px;
     color: #DEEBF8;
 }
+
+main {
+    background-color:#282D35;    
+    height: 100vh;
+    color: white;
+}
+
+.main--header {
+    margin: 0;
+    padding: 60px 25px 45px;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: -0.05em;
+}
+
+.main--list_items {
+    padding: 0px 70px;
+    margin: 0px;
+    max-width: 500px;
+}
+
+.main--list_items > li {
+    padding-block: 10px;
+    line-height: 19px;
+    font-weight: 400;
+    font-size: 16px;
+}
